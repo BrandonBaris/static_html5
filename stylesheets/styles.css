@@ -59,6 +59,15 @@ body {
     height: 300px;
     margin: 20px;
   }
+  .red{
+    background-image: url(http://upload.wikimedia.org/wikipedia/commons/2/29/PerfectStrawberry.jpg);
+  }
+  .blue{
+    background-image: url(http://strong-athlete.com/wp-content/uploads/2011/05/Superfoods-1.jpg);
+  }
+  .green{
+    background-image: url(http://static.abbottnutrition.com/cms-prod/similac.com/img/article-superfoods.jpg);
+  }
 }
 
 /* large */
@@ -87,5 +96,14 @@ body {
   #super_heroes li{
     height: 300px;
     border: 1px solid #eeeeee;
+  }
+  .red{
+    background-image: url(http://upload.wikimedia.org/wikipedia/commons/2/29/PerfectStrawberry.jpg);
+  }
+  .blue{
+    background-image: url(http://strong-athlete.com/wp-content/uploads/2011/05/Superfoods-1.jpg);
+  }
+  .green{
+    background-image: url(http://static.abbottnutrition.com/cms-prod/similac.com/img/article-superfoods.jpg);
   }
 }
