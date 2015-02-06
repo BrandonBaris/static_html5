@@ -1,0 +1,89 @@
+
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body {
+  background-color: red;
+  font-family: 'Lato',sans-serif;
+  color: #222222;
+}
+
+#container{
+  max-width: 500px
+}
+/* small */
+@media only screen and (max-width: :40em){
+  body {
+    background-color: #771111;
+  }
+  #container{}
+  #hero{
+    height: 300px;
+    margin: 15px;
+    background-color: #eeeeee;
+    border: 2px solid #ee1111;
+  }
+  #super_heroes{}
+  ul#super_heroes li{
+    height: 40px;
+    margin: 0,15px,0;
+    width: 100%;
+    padding: 15px;
+    background-color: #341251;
+    border: 2px solid #772222;
+  }
+}
+
+/* medium */
+@media only screen and (min-width: 40.063em) and (max-width: 60em){
+  #container{}
+  body {
+    background-color: #227722;
+  }
+  #hero{
+    height: 200px;
+    width: 100%;
+    background-color: #ff2200;
+    border: 3px solid #abcdef;
+  }
+  #super_heroes{
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    background-color: #ff2200;
+    border: 3px solid #abcdef;
+  }
+  #super_heroes li{
+    height: 300px;
+    margin: 20px;
+  }
+}
+
+/* fast */
+@media only screen and (min-width: 60.063em){
+  body {
+    background-color: #341251;
+  }
+  #container{
+    background-color: #99bb99;
+    border: 3px solid 009999;
+  }
+  #hero{
+    height: 300px;
+    width: 96%;
+    margin: 20px;
+    background-color: #bbffbb;
+    border: none;
+  }
+  #super_heroes{
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #bbffbb;
+    border: none;
+  }
+  #super_heroes li{
+    height: 300px;
+    border: 1px solid #eeeeee;
+  }
+}
