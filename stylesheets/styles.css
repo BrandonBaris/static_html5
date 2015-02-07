@@ -7,12 +7,13 @@ html{
 body {
   background-color: red;
   font-family: 'Lato',sans-serif;
-  color: #222222;
+  color: #605A63;
 }
 
 #container{
   max-width: 500px;
 }
+
 /* small */
 @media only screen and (max-width: 40em){
   body {
@@ -22,8 +23,8 @@ body {
   #hero{
     height: 300px;
     margin: 15px;
-    background-color: #eeeeee;
-    border: 2px solid #ee1111;
+    background-color: #F7F7E4;
+    border: 2px solid #F7636A;
   }
   #super_heroes{}
   #super_heroes li{
@@ -31,8 +32,8 @@ body {
     margin: 0,15px,0;
     width: 100%;
     padding: 15px;
-    background-color: #341251;
-    border: 2px solid #772222;
+    background-color: tan;
+    border: 2px solid darkred;
   }
 }
 
@@ -40,7 +41,7 @@ body {
 @media only screen and (min-width: 40.063em) and (max-width: 60em){
   #container{}
   body {
-    background-color: #227722;
+    background-color: #89E894 ;
   }
   #hero{
     height: 200px;
@@ -81,7 +82,7 @@ body {
   }
   #hero{
     height: 300px;
-    width: 96%;
+    width: auto;
     margin: 20px;
     background-color: #bbffbb;
     border: none;
